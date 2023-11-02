@@ -1,0 +1,16 @@
+# Salasanasuojaus 
+# (lisää .htpasswd palvelimelle ja muuta ekalle riville oikea polku)
+AuthUserFile /home/NIMI/domains/DOMAIN.FI/.htpasswd/public_html/.htpasswd
+AuthType Basic
+AuthName "Salasanasuojattu kehityssivusto"
+Require valid-user
+# htpasswd generaattori: https://hostingcanada.org/htpasswd-generator/
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}/index.html !-f
+RewriteCond %{REQUEST_FILENAME}/index.php !-f
+RewriteRule . index.php [L]
+</IfModule>

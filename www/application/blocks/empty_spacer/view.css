@@ -1,0 +1,49 @@
+.empty-spacer-desktop {
+  display: none;
+}
+.empty-spacer-tablet {
+  display: none;
+}
+.empty-spacer-mobile {
+  display: block;
+}
+
+@media screen and (min-width: 770px) {
+  .empty-spacer-desktop {
+    display: none;
+  }
+  .empty-spacer-tablet {
+    display: block;
+  }
+  .empty-spacer-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .empty-spacer-desktop {
+    display: block;
+  }
+  .empty-spacer-tablet {
+    display: none;
+  }
+  .empty-spacer-mobile {
+    display: none;
+  }
+}
+
+.empty-spacer-none {
+  display: none;
+}
+
+.empty-spacer-small {
+  height: 1rem;
+}
+
+.empty-spacer-medium {
+  height: 4rem;
+}
+
+.empty-spacer-large {
+  height: 10rem;
+}

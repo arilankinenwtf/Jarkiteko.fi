@@ -1,0 +1,50 @@
+.btn,
+button {
+  .transition(@button-transition);
+}
+
+.btn {
+  border: 0;
+  margin: @btn-cta-margin;
+  max-width: 100%;
+  white-space: normal;
+
+  &-primary {
+    background-color: @sky;
+    color: @black;
+    padding: @btn-cta-padding;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid @sky;
+    border-radius: 5px;
+    transition: all ease-in-out .3s;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: @white;
+      border-color: @white;
+      padding: 0.6rem 2rem;
+      color: @black;
+      transition: all ease-in-out .3s;
+    }
+    @media @desktop-max {
+      padding: 0.4rem 0.8rem;
+    }
+  }
+
+  &-secondary {
+    background-color: @btn-cta-secondary-bg;
+    color: @btn-cta-secondary-color;
+    padding: @btn-cta-padding;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: @btn-cta-secondary-color-hover;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+// TYPOGRAPHY
+
+// fontit voi importata joko elements/header-top.php tiedostossa
+// tai @font-face toiminnolla (fontti-tiedosto pitää olla fonts kansiossa):
+
+@font-face {
+  font-family: 'SpecialElite-Regular';
+  src: url('../../fonts/SpecialElite-Regular.ttf') format('truetype');
+}
+
+@font-family: 'Readex Pro'; //tuotu Google Fontsista, kts. header-top.php
+@font-family-headings: 'Readex Pro';
+
+// Ensin yleiset toistuvat muuttujat
+@font-size: 1rem;
+@font-size-xs: 0.8rem;
+@font-size-sm: 1.1rem;
+@font-size-md: 1.2rem;
+@font-size-lg: 1.6rem;
+@font-size-xl: 2rem;
+
+@heading-size-sm: 2rem;
+@heading-size-md: 2.6rem;
+@heading-size-lg: 4.2rem;
+
+@font-weight: 400;
+@font-weight-bold: 700;
+
+@line-height-medium: 1.5;
+@line-height-large: 1.8;
+@line-height-xl: 2.5;
+
+@letter-spacing-md: 0.3rem;
+
+/*
+* Body
+*/
+@font-size-body: @font-size-md;
+@p-size: 16px;
+@p-size-mobile: @font-size;
+
+/*
+* Footer
+*/
+@footer-spacing: @letter-spacing-md;
+@footer-font-size: @font-size-sm;
+@footer-bottom-font-size: @font-size-xs;
+@footer-line-height: @line-height-xl;
+@footer-heading-weight: @font-weight-bold;
+@footer-heading-size: @font-size-md;
+
+/*
+* Headings
+*/
+@h1-font: @font-family-headings;
+@h2-font: @font-family-headings;
+@h1-size: @heading-size-lg;
+@h1-size-mobile: @heading-size-md;
+@h2-size: @heading-size-md;
+@h2-size-mobile: @heading-size-sm;
+@h3-size: @heading-size-sm;
+@h3-size-mobile: @heading-size-sm;
+@h1-weight: @font-weight-bold;
+@h2-weight: @font-weight-bold;
+@h3-weight: @font-weight-bold;
+
+/*
+* Mobile menu
+*/
+@mobile-menu-font-size: @font-size-lg;
+@mobile-menu-font: @font-family;
+
+/*
+* Typography
+*/
+@caption-size: @font-size-sm;
+@quote-size: @font-size-lg;
+@ingress-size: @font-size-lg;
+@ingress-weight: @font-weight-bold;

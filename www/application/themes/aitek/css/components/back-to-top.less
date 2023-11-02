@@ -1,0 +1,33 @@
+// "Takaisin ylös" nuolipallo sivun alareunassaa. Näkyy vain kun rullaa alaspäin.
+
+#back-to-top {
+  background-color: @back-to-top-bg;
+  border-radius: 50%;
+  color: @back-to-top-color;
+  bottom: @back-to-top-bottom-mobile;
+  display: none !important;
+  font-size: @back-to-top-arrow-size;
+  height: @back-to-top-size;
+  left: auto;
+  opacity: 0.7;
+  padding: 0; // fix for Safari iOS
+  position: fixed;
+  right: @back-to-top-right-mobile;
+  text-align: center;
+  text-decoration: none;
+  top: auto;
+  z-index: 100;
+  width: @back-to-top-size;
+  .transition(@back-to-top-transition);
+
+  @media @tablet {
+    bottom: @back-to-top-bottom;
+    right: @back-to-top-right;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    opacity: 1;
+  }
+}

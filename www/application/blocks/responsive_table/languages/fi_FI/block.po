@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+### MEDIATAIVAS / BLOCKS / LINK LIST ###
+
+msgid "Responsive Table"
+msgstr "Responsiivinen taulukko"
+
+msgid "Add row"
+msgstr "Lisää rivi"
+
+msgid "Add column"
+msgstr "Lisää sarake"
+
+msgid "Remove column"
+msgstr "Poista sarake"
+
+msgid "Use first row as table headers"
+msgstr "Käytä ensimmäistä riviä otsakerivinä"
+
+msgid "Hide headers on desktop mode"
+msgstr "Piilota otsakerivi työpöytäkoossa"
+
+msgid "Table is empty"
+msgstr "Taulukko on tyhjä"

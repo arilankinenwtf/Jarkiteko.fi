@@ -1,0 +1,35 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow: hidden;
+  height: 250px;
+  @media @desktop-max {
+    height: 120px;
+  }
+  &-logo {
+    display: flex;
+    margin-left: 6rem;
+    img {
+      margin: @header-logo-margin;
+      max-width: 200px;
+    }
+    @media @desktop-max {
+      margin-left: 0;
+      img {
+        width: 120px;
+        margin-top: 32px;
+      }
+    }
+  }
+
+  &-navigation {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    @media @desktop-max {
+      display: none;
+    }
+  }
+}

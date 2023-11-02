@@ -1,0 +1,126 @@
+// Rakenteiden/alueiden tyylit
+
+.layout {
+  padding-top: @layout-padding;
+  padding-bottom: @layout-padding;
+
+  &-dark {
+    .layout-style (@layout-dark-bg, @layout-dark-color);
+  }
+
+  &-large-padding {
+    padding-bottom: @layout-padding-lg;
+    padding-top: @layout-padding-lg;
+  }
+
+  &-center-vertically {
+    .row {
+      @media @tablet {
+        align-items: center;
+        display: flex;
+      }
+    }
+  }
+}
+
+.top-content {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.intro {
+  z-index: -1;
+  display: table;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: @black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  position:absolute;
+}
+
+.etusivu-tausta {
+  background: url(/application/files/7916/9565/0071/Etusivutausta2.png) no-repeat top center scroll;
+  opacity: 0.2;
+  z-index: -2;
+  display: table;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: @black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  position:absolute;
+}
+
+.default-tausta {
+  background: url(/application/files/4916/9564/6675/Etusivutausta.png) no-repeat top center scroll;
+  opacity: 0.2;
+  z-index: -2;
+  display: table;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: @black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  position:absolute;
+}
+#spiders {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media @tablet-max {
+  .intro {
+    
+  }
+  #spiders {
+    display: none;
+  }
+}
+
+.home-container-three {
+  padding-left: 2vw;
+  @media @desktop-max {
+    padding-left: 5vw;
+  }
+  .col-md-4 {
+    @media @desktop-max {
+      margin-top: 0rem;
+      .btn {
+        margin-bottom: 0 !important;
+        margin-top: 0.5rem !important;
+      }
+    }
+  }
+  img {
+    height: 100px !important;
+    width: auto;
+    margin-bottom: -1.5rem;
+    @media @desktop-max {
+      height: 40px !important;
+    }
+  }
+}

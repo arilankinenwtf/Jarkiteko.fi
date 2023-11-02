@@ -1,0 +1,52 @@
+name: jarkiteko
+recipe: lamp
+config:
+  webroot: www
+  php: "8.0" # Zoner
+  database: mariadb:10.3.32 # Zoner
+
+env_file:
+  - .env
+
+# services:
+#   appserver:
+#     webroot: www
+#     xdebug: true
+#     config:
+#       php: .vscode/php.ini
+
+tooling:
+  envoy:
+    service: appserver
+  pull-start:
+    service: appserver
+    description: Pull and import database and files from production.
+    cmd:
+      - appserver: envoy run pull
+      - database: /helpers/sql-import.sh db.sql
+      - appserver: rm db.sql
+      - appserver: tar xvzf f.tar.gz -C /app/www
+      - appserver: rm f.tar.gz
+  pull-db:
+    service: appserver
+    description: Pull and import the database from production.
+    cmd:
+      - appserver: envoy run pull-db
+      - database: /helpers/sql-import.sh db.sql
+      - appserver: rm db.sql
+  pull-application:
+    service: appserver
+    description: Pull application files from production as tar.gz and unzip.
+    cmd:
+      - appserver: envoy run pull-all-files
+      - appserver: rm -rf /app/www/application
+      - appserver: tar xvzf f.tar.gz -C /app/www
+      - appserver: rm f.tar.gz
+  pull-files:
+    service: appserver
+    description: Pull files folder from production as tar.gz and unzip.
+    cmd:
+      - appserver: envoy run pull-only-files
+      - appserver: rm -rf /app/www/application/files
+      - appserver: tar xvzf f.tar.gz -C /app/www/application
+      - appserver: rm f.tar.gz

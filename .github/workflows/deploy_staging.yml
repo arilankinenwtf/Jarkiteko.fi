@@ -1,0 +1,23 @@
+name: CI staging
+on:
+  # Triggers the workflow on push request events but only for the main branch
+  push:
+    branches:
+    - 'staging'
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Deploy to Staging
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+              SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY_STAGING }}
+              ARGS: "--exclude /bootstrap/ --exclude /config/"
+              SOURCE: "www/"
+              REMOTE_HOST: ${{ secrets.REMOTE_HOST_STAGING }}
+              REMOTE_USER: ${{ secrets.REMOTE_USER_STAGING }}
+              TARGET: ${{ secrets.TARGET_STAGING }}
+              EXCLUDE: ""

@@ -1,0 +1,182 @@
+.list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    flex: 0 0 49.999999%;
+  }
+}
+
+.list-item {
+  padding: @gutter-sm;
+  position: relative;
+
+  &-image {
+    position: relative;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 400px; // mobile
+    }
+
+    &:after {
+      position: absolute;
+      background: @grey;
+      content: '';
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 400px; // mobile
+    }
+  }
+
+  &-text {
+    bottom: 0; // mobile
+    color: @white;
+    font-size: 1.8rem;
+    left: 0;
+    padding: @gutter;
+    position: absolute;
+  }
+
+  &-title {
+    color: @white;
+  }
+
+  &-description {
+    p {
+      color: @white;
+      padding: 0;
+    }
+  }
+}
+
+// CONTACTS TEMPLATE
+
+@list-item-image-size: 200px;
+
+.contact-list-ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-inline-start: 0 !important;
+}
+
+.contact-list-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  width: 25.333%;
+  text-align: center;
+  margin-inline: 4%;
+  margin-top: 2rem;
+  @media @large-desktop-max {
+    width: 40%;
+    margin-inline: 5%;
+  }
+  @media @tablet-max {
+    width: 90%;
+    margin-inline: 5%;
+  }
+  &:before {
+      content: '' !important;
+      display: none !important;
+  }
+
+  &-text {
+    padding-top: 2rem;
+  }
+  &-title {
+    margin-top: 2rem;
+  }
+  &-image {
+    background-color: @grey;
+    display: flex;
+    justify-content: center;
+    height: @list-item-image-size;
+    width: @list-item-image-size;
+    position: relative;
+    border-radius: 50%;
+    &:after {
+      content: "";
+      background-image: url("/application/files/8716/8535/4634/ikoni.svg");
+      width: 100%;
+      height: 44px;
+      bottom: -22px;
+      left: 50px;
+      object-fit: contain;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 99;
+    }
+    img {
+      height: @list-item-image-size;
+      object-fit: cover;
+      object-position: center;
+      width: @list-item-image-size;
+      border-radius: 50%;
+    }
+  }
+}
+
+//Kumppanit
+
+.kumppani-list-ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-inline-start: 0 !important;
+}
+
+.kumppani-list-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  width: 17%;
+  text-align: center;
+  margin-inline: 4%;
+  margin-top: 2rem;
+  @media @large-desktop-max {
+    width: 40%;
+    margin-inline: 5%;
+  }
+  @media @tablet-max {
+    width: 90%;
+    margin-inline: 5%;
+  }
+  &:before {
+      content: '' !important;
+      display: none !important;
+  }
+
+  &-text {
+    padding-top: 2rem;
+    @media @desktop-max {
+      padding-top: 0.5rem;
+    }
+  }
+  &-title {
+    margin-top: 2rem;
+  }
+  &-image {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    img {
+      height: 200px;
+      object-fit: contain;
+      object-position: center;
+      width: 200px;
+    }
+  }
+}

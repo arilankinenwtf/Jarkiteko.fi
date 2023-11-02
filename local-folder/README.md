@@ -1,0 +1,1 @@
+Tänne kansioon voi laittaa tiedostot, joita ei tarvitse viedä versionhallintaan; sivustolle ladattavat kuvat, tiedostot jne. jotka väliaikaisesti laittaa talteen omalle koneelle.

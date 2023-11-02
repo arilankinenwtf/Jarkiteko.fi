@@ -1,0 +1,1923 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-09T14:29:54+02:00\n"
+"PO-Revision-Date: 2022-02-09T14:29:54+02:00\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "SiteName"
+msgid "Both2nia"
+msgstr ""
+
+#: concrete/config/app.php
+msgid "JPEG"
+msgstr "JPEG"
+
+#: concrete/config/app.php
+msgid "GIF"
+msgstr "GIF"
+
+#: concrete/config/app.php
+msgid "PNG"
+msgstr "PNG"
+
+#: concrete/config/app.php
+msgid "Windows Bitmap"
+msgstr "Windows Bitmap"
+
+#: concrete/config/app.php
+msgid "TIFF"
+msgstr "TIFF"
+
+#: concrete/config/app.php
+msgid "HTML"
+msgstr "HTML"
+
+#: concrete/config/app.php
+msgid "Flash"
+msgstr "Flash"
+
+#: concrete/config/app.php
+msgid "Icon"
+msgstr "Kuvake"
+
+#: concrete/config/app.php
+msgid "SVG"
+msgstr "SVG"
+
+#: concrete/config/app.php
+msgid "Windows Video"
+msgstr "Windows Video"
+
+#: concrete/config/app.php
+msgid "Quicktime"
+msgstr "Quicktime"
+
+#: concrete/config/app.php
+msgid "AVI"
+msgstr "AVI"
+
+#: concrete/config/app.php
+msgid "3GP"
+msgstr "3GP"
+
+#: concrete/config/app.php
+msgid "Plain Text"
+msgstr "Pelkkä teksti"
+
+#: concrete/config/app.php
+msgid "CSV"
+msgstr "CSV"
+
+#: concrete/config/app.php
+msgid "XML"
+msgstr "XML"
+
+#: concrete/config/app.php
+msgid "PHP"
+msgstr "PHP"
+
+#: concrete/config/app.php
+msgid "MS Word"
+msgstr "MS Word"
+
+#: concrete/config/app.php
+msgid "Stylesheet"
+msgstr "Tyylitiedosto"
+
+#: concrete/config/app.php
+msgid "MP4"
+msgstr "MP4"
+
+#: concrete/config/app.php
+msgid "FLV"
+msgstr "FLV"
+
+#: concrete/config/app.php
+msgid "MP3"
+msgstr "MP3"
+
+#: concrete/config/app.php
+msgid "MP4 Audio"
+msgstr "MP4-audio"
+
+#: concrete/config/app.php
+msgid "Realaudio"
+msgstr "Realaudio"
+
+#: concrete/config/app.php
+msgid "Windows Audio"
+msgstr "Windows Audio"
+
+#: concrete/config/app.php
+msgid "Rich Text"
+msgstr "Muotoiltu teksti"
+
+#: concrete/config/app.php
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: concrete/config/app.php
+msgid "PDF"
+msgstr "PDF"
+
+#: concrete/config/app.php
+msgid "Photoshop"
+msgstr "Photoshop"
+
+#: concrete/config/app.php
+msgid "MPEG"
+msgstr "MPEG"
+
+#: concrete/config/app.php
+msgid "MS Excel"
+msgstr "MS Excel"
+
+#: concrete/config/app.php
+msgid "MS Powerpoint"
+msgstr "MS Powerpoint"
+
+#: concrete/config/app.php
+msgid "TAR Archive"
+msgstr "TAR-paketti"
+
+#: concrete/config/app.php
+msgid "Zip Archive"
+msgstr "Zip-paketti"
+
+#: concrete/config/app.php
+msgid "GZip Archive"
+msgstr "Gzip-paketti"
+
+#: concrete/config/app.php
+msgid "OGG"
+msgstr "OGG"
+
+#: concrete/config/app.php
+msgid "OGG Video"
+msgstr "OGG-video"
+
+#: concrete/config/app.php
+msgid "WebM"
+msgstr "WebM"
+
+#: concrete/config/concrete.php
+msgid "This user is inactive. Please contact us regarding this account."
+msgstr "Tämä käyttäjä ei ole aktiivinen. Ole hyvä ja ota yhteyttä meihin."
+
+#: concrete/config/concrete.php
+msgid "A username may only contain letters, numbers, dots (not at the beginning/end), and underscores (not at the beginning/end)."
+msgstr "Käyttäjätunnus voi sisältää vain kirjaimia, numeroita, pisteitä (ei alussa tai lopussa) ja alaviivoja (ei alussa tai lopussa)."
+
+#: application/authentication/concrete/form.php:11
+msgid "Email Address"
+msgstr "Sähköpostiosoite"
+
+#: application/authentication/concrete/form.php:11
+msgid "User Name"
+msgstr "Käyttäjätunnus"
+
+#: application/authentication/concrete/form.php:19
+msgid "Password"
+msgstr "Salasana"
+
+#: application/authentication/concrete/form.php:38
+msgid "Stay logged in for %s"
+msgstr "Pysy sisäänkirjautuneena"
+
+#: application/authentication/concrete/form.php:38
+msgid " days"
+msgstr " päivää"
+
+#: application/authentication/concrete/form.php:48
+msgid "Language"
+msgstr "Kieli"
+
+#: application/authentication/concrete/form.php:55
+#: application/single_pages/login.php:31
+msgid "Log in"
+msgstr "Kirjaudu sisälle"
+
+#: application/authentication/concrete/form.php:64
+msgid "Don't have an account?"
+msgstr "Luo tunnus"
+
+#: application/authentication/concrete/form.php:65
+msgid "Sign up"
+msgstr "Rekisteröidy"
+
+#: application/authentication/concrete/form.php:72
+msgid "Forgot Password"
+msgstr "Unohdin salasanani"
+
+#: application/blocks/autonav/templates/horizontal_menu/view.php:112
+#: application/blocks/autonav/templates/mobile_menu/view.php:142
+msgid "Empty Auto-Nav Block."
+msgstr "Tyhjä automaattinen navigaatio -lohko."
+
+#: application/blocks/empty_spacer/controller.php:20
+#: application/blocks/empty_spacer/controller.php:25
+msgid "Empty spacer"
+msgstr "Tyhjä väli"
+
+#: application/blocks/empty_spacer/form.php:8
+msgid "Desktop (1200px->)"
+msgstr "Desktop (1200px->)"
+
+#: application/blocks/empty_spacer/form.php:13
+#: application/blocks/empty_spacer/form.php:23
+#: application/blocks/empty_spacer/form.php:33
+msgid "None"
+msgstr "Ei mitään"
+
+#: application/blocks/empty_spacer/form.php:18
+msgid "Tablet (770px-1200px)"
+msgstr "Tablet (770px-1200px)"
+
+#: application/blocks/empty_spacer/form.php:28
+msgid "Mobile (<-770px)"
+msgstr "Mobiili (<-770px)"
+
+#: application/blocks/image_gallery/controller.php:27
+msgid "Display multiple images as a gallery."
+msgstr ""
+
+#: application/blocks/image_gallery/controller.php:31
+msgid "Slider Gallery"
+msgstr ""
+
+#: application/blocks/image_gallery/form.php:70
+msgid "Add New Image"
+msgstr "Lisää kuva"
+
+#: application/blocks/image_gallery/form.php:79
+#: application/blocks/list_items/form.php:278
+#: application/blocks/wtf_slider/form.php:257
+msgid "Image"
+msgstr "Kuva"
+
+#: application/blocks/image_gallery/form.php:91
+#: application/blocks/list_items/form.php:289
+#: application/blocks/wtf_slider/form.php:268
+msgid "Title"
+msgstr "Otsikko"
+
+#: application/blocks/image_gallery/form.php:96
+msgid "Remove Image"
+msgstr "Poista kuva"
+
+#: application/blocks/list_items/controller.php:47
+msgid "List items"
+msgstr "Lista elementit"
+
+#: application/blocks/list_items/controller.php:52
+msgid "Make a list of things"
+msgstr "Tee elementeistä listaus (kuva, otsikko ja teksti)"
+
+#: application/blocks/list_items/form.php:8
+#: application/blocks/wtf_slider/form.php:8
+msgid "Items"
+msgstr "Kohteet"
+
+#: application/blocks/list_items/form.php:25
+#: application/blocks/toggle_list/form_setup_html.php:160
+#: application/blocks/wtf_slider/form.php:25
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+#: application/blocks/list_items/form.php:260
+#: application/blocks/wtf_slider/form.php:249
+msgid "Add item"
+msgstr "Lisää kohde"
+
+#: application/blocks/list_items/form.php:264
+msgid "Heading type"
+msgstr "Otsikon tyyppi"
+
+#: application/blocks/list_items/form.php:293
+#: application/blocks/wtf_slider/form.php:272
+msgid "Content"
+msgstr "Sisältö"
+
+#: application/blocks/list_items/form.php:299
+#: application/blocks/wtf_slider/form.php:277
+msgid "Collapse entry"
+msgstr "Sulje"
+
+#: application/blocks/list_items/form.php:299
+#: application/blocks/wtf_slider/form.php:277
+msgid "Edit item"
+msgstr "Muokkaa kohdetta"
+
+#: application/blocks/list_items/form.php:300
+#: application/blocks/toggle_list/form_setup_html.php:94
+#: application/blocks/toggle_list/form_setup_html.php:124
+#: application/blocks/wtf_slider/form.php:278
+msgid "Remove"
+msgstr "Poista"
+
+#: application/blocks/page_list/templates/news_list/view.php:74
+msgid "Empty Page List Block."
+msgstr "Tyhjä sivulistalohko."
+
+#: application/blocks/responsive_table/templates/small-mobile-font.php:51
+#: application/blocks/responsive_table/templates/tablet-overflow.php:51
+#: application/blocks/responsive_table/view.php:51
+msgid "Table is empty"
+msgstr "Taulukko on tyhjä"
+
+#: application/blocks/responsive_table/controller.php:23
+msgid "Table"
+msgstr "Taulukko"
+
+#: application/blocks/responsive_table/controller.php:27
+msgid "Responsive Table"
+msgstr "Responsiivinen taulukko"
+
+#: application/blocks/responsive_table/form.php:109
+msgid "Use first row as table headers"
+msgstr "Käytä ensimmäistä riviä otsikkorivinä"
+
+#: application/blocks/responsive_table/form.php:113
+msgid "Hide headers on desktop mode"
+msgstr "Piilota otsikot työpöytä näkymässä"
+
+#: application/blocks/responsive_table/form.php:119
+msgid "Add column"
+msgstr "Lisää sarake"
+
+#: application/blocks/responsive_table/form.php:123
+#: application/blocks/responsive_table/form.php:124
+msgid "Remove column"
+msgstr "Poista sarake"
+
+#: application/blocks/responsive_table/form.php:128
+msgid "Add row"
+msgstr "Lisää rivi"
+
+#: application/blocks/toggle_list/controller.php:22
+msgid "Toggle List"
+msgstr "Toggle lista"
+
+#: application/blocks/toggle_list/controller.php:27
+msgid "List of accordion / toggle type content"
+msgstr "Luo lista toggleja eli aukeavaa sisältöä"
+
+#: application/blocks/toggle_list/form_setup_html.php:70
+#: application/blocks/list_items/form.php:264
+msgid "Otsikon tyyppi"
+msgstr ""
+
+#: application/blocks/toggle_list/form_setup_html.php:78
+msgid "Add Entry"
+msgstr "Lisää kohta"
+
+#: application/blocks/toggle_list/form_setup_html.php:86
+#: application/blocks/toggle_list/form_setup_html.php:116
+msgid "Title Text"
+msgstr "Otsikkoteksti"
+
+#: application/blocks/toggle_list/form_setup_html.php:90
+#: application/blocks/toggle_list/form_setup_html.php:120
+msgid "Description"
+msgstr "Kuvaus"
+
+#: application/blocks/toggle_list/form_setup_html.php:93
+#: application/blocks/toggle_list/form_setup_html.php:123
+msgid "Collapse Entry"
+msgstr "Pienennä kohde"
+
+#: application/blocks/toggle_list/form_setup_html.php:93
+#: application/blocks/toggle_list/form_setup_html.php:123
+msgid "Edit Entry"
+msgstr "Muokkaa kohdetta"
+
+#: application/blocks/toggle_list/view.php:36
+msgid "No Entries Entered."
+msgstr "Ei kohteita"
+
+#: application/blocks/wtf_slider/controller.php:47
+msgid "Slider"
+msgstr "Slider"
+
+#: application/blocks/wtf_slider/controller.php:52
+msgid "Slider for text and images"
+msgstr "Slider/kuvakaruselli tekstille ja kuville"
+
+#: application/blocks/autonav/templates/horizontal_menu
+msgctxt "TemplateFileName"
+msgid "Horizontal Menu"
+msgstr "Vaakamallinen navigaatio"
+
+#: application/blocks/autonav/templates/mobile_menu
+msgctxt "TemplateFileName"
+msgid "Mobile Menu"
+msgstr "Mobiilivalikko"
+
+#: application/blocks/page_list/templates/news_list
+msgctxt "TemplateFileName"
+msgid "News List"
+msgstr "Uutislista"
+
+#: application/blocks/responsive_table/templates/small-mobile-font.php
+msgctxt "TemplateFileName"
+msgid "Small Mobile Font"
+msgstr "Mobiili fontti"
+
+#: application/blocks/responsive_table/templates/tablet-overflow.php
+msgctxt "TemplateFileName"
+msgid "Tablet Overflow"
+msgstr ""
+
+#: application/blocks/switch_language/templates/links
+msgctxt "TemplateFileName"
+msgid "Links"
+msgstr "Linkit"
+
+#: application/single_pages/login.php:32
+msgid "You are already logged in. :)"
+msgstr "Olet jo kirjautunut sisään. :)"
+
+#: application/single_pages/login.php:34
+msgid "Required"
+msgstr "Vaaditaan"
+
+#: application/single_pages/login.php:61
+msgid "Welcome back!"
+msgstr "Tervetuloa takaisin!"
+
+#: application/single_pages/login.php:82
+msgid "Submit"
+msgstr "Lähetä"
+
+#: application/single_pages/login.php:109
+msgid "or"
+msgstr "tai"
+
+#: application/themes/both2nia/elements/header.php:17
+#: application/themes/both2nia/elements/header.php:15
+msgid "Etusivu"
+msgstr ""
+
+#: application/themes/both2nia/page_forbidden.php:10
+msgid "403 Error"
+msgstr "403-virhe"
+
+#: application/themes/both2nia/page_forbidden.php:11
+msgid "You are not allowed to access this page."
+msgstr "Sinulla ei ole oikeutta päästä tälle sivulle."
+
+#: application/themes/both2nia/page_theme.php:35
+msgid "Ingress"
+msgstr "Ingressi"
+
+#: application/themes/both2nia/page_theme.php:36
+msgid "Caption"
+msgstr "Kuvateksti"
+
+#: application/themes/both2nia/page_theme.php:38
+msgid "Primary button"
+msgstr "Painike (ensisijainen)"
+
+#: application/themes/both2nia/page_theme.php:44
+msgid "Secondary button"
+msgstr "Painike (toissijainen)"
+
+#: application/themes/both2nia/page_theme.php:62
+msgid "Clear styles"
+msgstr "Tyhjennä tyylit"
+
+msgctxt "AreaName"
+msgid "Disclaimer"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Footer First"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Footer Second"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Footer Third"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Header Navigation"
+msgstr "Ylänavigaatio"
+
+msgctxt "AreaName"
+msgid "Main"
+msgstr "Pääosio"
+
+msgctxt "AreaName"
+msgid "Main : 1"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 1 : Container"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 10"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 11"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 12"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 2"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 3"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 4"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 5"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 6"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 7"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 8"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Main : 9"
+msgstr ""
+
+msgctxt "AreaName"
+msgid "Mobile Menu"
+msgstr "Mobiilivalikko"
+
+msgctxt "AreaName"
+msgid "Page Footer"
+msgstr "Sivun alatunniste"
+
+msgctxt "AreaName"
+msgid "Page Header Title"
+msgstr "Sivun otsikko alue"
+
+msgctxt "AttributeKeyName"
+msgid "Meta Title"
+msgstr "Meta-otsikko"
+
+msgctxt "AttributeKeyName"
+msgid "Meta Description"
+msgstr "Meta-kuvaus"
+
+msgctxt "AttributeKeyName"
+msgid "Meta Keywords"
+msgstr "Meta-avainsanat"
+
+msgctxt "AttributeKeyName"
+msgid "Desktop Priority"
+msgstr "Työpöytäprioriteetti"
+
+msgctxt "AttributeKeyName"
+msgid "Is Desktop"
+msgstr "On työpöytä"
+
+msgctxt "AttributeKeyLabel"
+msgid ""
+msgstr ""
+
+msgctxt "AttributeKeyName"
+msgid "Dashboard Icon"
+msgstr "Hallintapaneelin ikoni"
+
+msgctxt "AttributeKeyName"
+msgid "Exclude From Nav"
+msgstr "Älä sisällytä navigaatioon"
+
+msgctxt "AttributeKeyLabel"
+msgid "Exclude Page from Navigation"
+msgstr "Piilota sivu navigaatiosta"
+
+msgctxt "AttributeKeyName"
+msgid "Exclude From Page List"
+msgstr "Älä sisällytä sivulistaan"
+
+msgctxt "AttributeKeyLabel"
+msgid "Exclude Page from Page List Blocks"
+msgstr "Piilota sivu sivulistoista"
+
+msgctxt "AttributeKeyName"
+msgid "Header Extra Content"
+msgstr "Ylätunnisteen lisäsisältö"
+
+msgctxt "AttributeKeyName"
+msgid "Tags"
+msgstr "Tagit"
+
+msgctxt "AttributeKeyName"
+msgid "Is Featured"
+msgstr "On esitelty"
+
+msgctxt "AttributeKeyLabel"
+msgid "Feature this Page"
+msgstr "Nosta tämä sivu"
+
+msgctxt "AttributeKeyName"
+msgid "Exclude From Search Index"
+msgstr "Älä sisällytä hakuindeksiin"
+
+msgctxt "AttributeKeyName"
+msgid "Exclude From sitemap.xml"
+msgstr "Älä sisällytä sitemap.xml-tiedostoon"
+
+msgctxt "AttributeKeyName"
+msgid "I would like to receive private messages."
+msgstr "Haluan vastaanottaa yksityisviestejä."
+
+msgctxt "AttributeKeyName"
+msgid "Send me email notifications when I receive a private message."
+msgstr "Lähetä minulle ilmoitus sähköpostiini, kun saan yksityisviestin."
+
+msgctxt "AttributeKeyName"
+msgid "Width"
+msgstr "Leveys"
+
+msgctxt "AttributeKeyName"
+msgid "Height"
+msgstr "Korkeus"
+
+msgctxt "AttributeKeyName"
+msgid "Personal Links"
+msgstr "Henkilökohtaiset linkit"
+
+msgctxt "AttributeKeyName"
+msgid "Duration"
+msgstr "Kesto"
+
+msgctxt "AttributeKeyName"
+msgid "Logo"
+msgstr ""
+
+msgctxt "AttributeKeyCategory"
+msgid "Page attributes"
+msgstr "Sivuattribuutit"
+
+msgctxt "AttributeKeyCategory"
+msgid "User attributes"
+msgstr "Käyttäjäattribuutit"
+
+msgctxt "AttributeKeyCategory"
+msgid "File attributes"
+msgstr "Tiedostoattribuutit"
+
+msgctxt "AttributeKeyCategory"
+msgid "Site"
+msgstr "Sivusto"
+
+msgctxt "AttributeKeyCategory"
+msgid "Event"
+msgstr "Tapahtuma"
+
+msgctxt "AttributeKeyCategory"
+msgid "Site Type"
+msgstr ""
+
+msgctxt "AttributeKeyCategory"
+msgid "Express"
+msgstr ""
+
+msgctxt "AttributeSet"
+msgid "SEO"
+msgstr ""
+
+msgctxt "AttributeSet"
+msgid "Navigation and Indexing"
+msgstr ""
+
+msgctxt "AttributeTypeName"
+msgid "Text"
+msgstr "Teksti"
+
+msgctxt "AttributeTypeName"
+msgid "Duration"
+msgstr "Kesto"
+
+msgctxt "AttributeTypeName"
+msgid "Text Area"
+msgstr "Tekstialue"
+
+msgctxt "AttributeTypeName"
+msgid "Checkbox"
+msgstr "Valintaruutu"
+
+msgctxt "AttributeTypeName"
+msgid "Date/Time"
+msgstr "Päivämäärä ja aika"
+
+msgctxt "AttributeTypeName"
+msgid "Image/File"
+msgstr "Kuva/tiedosto"
+
+msgctxt "AttributeTypeName"
+msgid "Number"
+msgstr "Numero"
+
+msgctxt "AttributeTypeName"
+msgid "Option List"
+msgstr "Vaihtoehtolista"
+
+msgctxt "AttributeTypeName"
+msgid "Address"
+msgstr "Osoite"
+
+msgctxt "AttributeTypeName"
+msgid "Phone Number"
+msgstr "Puhelinnumero"
+
+msgctxt "AttributeTypeName"
+msgid "URL"
+msgstr "Osoite"
+
+msgctxt "AttributeTypeName"
+msgid "Email"
+msgstr "Sähköposti"
+
+msgctxt "AttributeTypeName"
+msgid "Rating"
+msgstr "Arvosana"
+
+msgctxt "AttributeTypeName"
+msgid "Topics"
+msgstr "Aiheet"
+
+msgctxt "AttributeTypeName"
+msgid "Social Links"
+msgstr "Sosiaaliset linkit"
+
+msgctxt "AttributeTypeName"
+msgid "Calendar"
+msgstr "Kalenteri"
+
+msgctxt "AttributeTypeName"
+msgid "Calendar Event"
+msgstr "Kalenteritapahtuma"
+
+msgctxt "AttributeTypeName"
+msgid "Express Entity"
+msgstr "Dataobjektiyksikkö"
+
+msgctxt "AttributeTypeName"
+msgid "Page Selector"
+msgstr "Sivuvalitsin"
+
+msgctxt "AttributeTypeName"
+msgid "User Selector"
+msgstr "Käyttäjän valitsija"
+
+msgctxt "AttributeTypeName"
+msgid "Site"
+msgstr "Sivusto"
+
+msgctxt "AttributeTypeName"
+msgid "User Group"
+msgstr ""
+
+msgctxt "AuthenticationType"
+msgid "Standard"
+msgstr "Vakio"
+
+msgctxt "AuthenticationType"
+msgid "community.concretecms.com"
+msgstr ""
+
+msgctxt "AuthenticationType"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "AuthenticationType"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "AuthenticationType"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "AuthenticationType"
+msgid "External Concrete Site"
+msgstr ""
+
+msgctxt "GroupName"
+msgid "Guest"
+msgstr "Vieras"
+
+msgctxt "GroupDescription"
+msgid "The guest group represents unregistered visitors to your site."
+msgstr "Vierasryhmä edustaa rekisteröitymättömiä vierailijoita sivustollasi."
+
+msgctxt "GroupName"
+msgid "Registered Users"
+msgstr "Rekisteröityneet käyttäjät"
+
+msgctxt "GroupDescription"
+msgid "The registered users group represents all user accounts."
+msgstr "Rekisteröityneet käyttäjäryhmä edustaa kaikkia käyttäjätilejä."
+
+msgctxt "GroupName"
+msgid "Administrators"
+msgstr "Ylläpitäjät"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "Group"
+msgstr "Ryhmä"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "User"
+msgstr "Käyttäjä"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "Group Set"
+msgstr "Ryhmäjoukko"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "Group Combination"
+msgstr "Ryhmäyhdistelmä"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "Page Owner"
+msgstr "Sivun omistaja"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "File Uploader"
+msgstr "Tiedostolataus"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "Message Author"
+msgstr "Lähetä viesti tekijälle"
+
+msgctxt "PermissionAccessEntityTypeName"
+msgid "Site Group"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "View"
+msgstr "Näytä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can see a page exists and read its content."
+msgstr "Voi nähdä, että sivu on olemassa ja voi lukea sen sisällön."
+
+msgctxt "PermissionKeyName"
+msgid "View Versions"
+msgstr "Näytä versiot"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can view the page versions dialog and read past versions of a page."
+msgstr "Voi nähdä sivun versioikkunan ja lukea sivun aiempia versioita."
+
+msgctxt "PermissionKeyName"
+msgid "View Page in Sitemap"
+msgstr "Näytä sivu sivukartassa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether a user can see a page in the sitemap or intelligent search."
+msgstr "Määrittelee näkeekö käyttäjä sivun sivukartassa tai älykkäässä haussa."
+
+msgctxt "PermissionKeyName"
+msgid "Preview Page As User"
+msgstr "Esikatsella sivua käyttäjänä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to see what this page will look like at a specific time in the future as a specific user."
+msgstr "Mahdollisuus nähdä, mille tämä sivu tulee näyttämään tiettynä aikana ja käyttäjänä tulevaisuudessa"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Properties"
+msgstr "Muokkaa ominaisuuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to change anything in the Page Properties menu."
+msgstr "Mahdollisuus muuttaa mitä tahansa sivun ominaisuuksien valikossa."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Contents"
+msgstr "Muokata sisältöjä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to make edits to at least some of the content in the page. You can lock down different block areas and specific blocks by clicking Permissions on them as well. "
+msgstr "Mahdollisuus tehdä muutoksia ainakin joihinkin tämän sivun sisältöihin. Voit lukita eri lohkoalueita ja tiettyjä lohkoja napsauttamalla Oikeudet myös niistä."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Speed Settings"
+msgstr "Muokata nopeusasetuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to change caching settings."
+msgstr "Mahdollisuus muuttaa välimuistin asetuksia."
+
+msgctxt "PermissionKeyName"
+msgid "Change Theme"
+msgstr "Vaihtaa teema"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to change just the theme for this page."
+msgstr "Mahdollisuus muuttaa vain tämän sivun teema."
+
+msgctxt "PermissionKeyName"
+msgid "Change Page Template"
+msgstr "Vaihda sivupohjaa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to change just the page template for this page."
+msgstr "Mahdollisuus vaihtaa vain sivupohjaa tälle sivulle."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Page Type"
+msgstr "Muokkaa sivutyyppiä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Change the type of an existing page."
+msgstr "Vaihda olemassaolevan sivun tyyppi."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Permissions"
+msgstr "Muokata oikeuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to change permissions for this page. Warning: by granting this a user could give themselves more access."
+msgstr "Mahdollisuus muuttaa tämän sivun oikeuksia. Varoitus: antamalla tämän oikeuden käyttäjälle, he voivat itse lisätä itselleen lisää oikeuksia."
+
+msgctxt "PermissionKeyName"
+msgid "Delete"
+msgstr "Poista"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to move this page to the site's Trash."
+msgstr "Mahdollisuus siirtää tämä sivu sivuston Roskakoriin."
+
+msgctxt "PermissionKeyName"
+msgid "Delete Versions"
+msgstr "Poistaa versioita"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to remove old versions of this page."
+msgstr "Mahdollisuus poistaa tämän sivun vanhoja versioita."
+
+msgctxt "PermissionKeyName"
+msgid "Approve Changes"
+msgstr "Hyväksy muutokset"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can publish an unapproved version of the page."
+msgstr "Voi julkaista tämän sivun hyväksymättömiä versioita."
+
+msgctxt "PermissionKeyName"
+msgid "Add Sub-Page"
+msgstr "Lisätä alasivun"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add a page beneath the current page."
+msgstr "Voi lisätä sivun nykyisen sivun alle."
+
+msgctxt "PermissionKeyName"
+msgid "Move or Copy Page"
+msgstr "Siirtää tai kopioida sivun"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can move or copy this page to another location."
+msgstr "Voi siirtää tai kopioida tämän sivun toiseen paikkaan."
+
+msgctxt "PermissionKeyName"
+msgid "Schedule Guest Access"
+msgstr "Ajastaa vieraiden pääsy"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can control scheduled guest access to this page."
+msgstr "Voi määritellä ajastetun pääsyn vieraille tälle sivulle."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Multilingual Settings"
+msgstr "Muokkaa monikielisyyden asetuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether a user can see the multilingual settings menu, re-map a page or set a page as ignored in multilingual settings."
+msgstr "Määrittelee voiko käyttäjä nähdä monikielisyyden asetusvalikon, määrittää sivun uudestaan tai jättää sivun huomiotta monikielisyyden asetuksissa."
+
+msgctxt "PermissionKeyName"
+msgid "Edit User Details"
+msgstr "Muokata käyttäjän tietoja"
+
+msgctxt "PermissionKeyName"
+msgid "View User Attributes"
+msgstr "Nähdä käyttäjän attribuutit"
+
+msgctxt "PermissionKeyName"
+msgid "Activate/Deactivate User"
+msgstr "Aktivoida tai poistaa käyttäjän aktivointi"
+
+msgctxt "PermissionKeyName"
+msgid "Sign in as User"
+msgstr "Kirjaudu käyttäjänä"
+
+msgctxt "PermissionKeyName"
+msgid "Access Group Search"
+msgstr "Käyttöoikeus ryhmähakuun"
+
+msgctxt "PermissionKeyName"
+msgid "Delete User"
+msgstr "Poistaa käyttäjä"
+
+msgctxt "PermissionKeyName"
+msgid "Export Site Users"
+msgstr "Vie sivuston käyttäjät"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether a user can export site users or not"
+msgstr "Määrittelee voiko käyttäjä viedä sivuston käyttäjät vai ei"
+
+msgctxt "PermissionKeyName"
+msgid "Access User Search"
+msgstr "Käyttöoikeus käyttäjähakuun"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether a user can view the search user interface."
+msgstr "Määrittelee pääseekö käyttäjä näkemään käyttäjähaun käyttöliittymää."
+
+msgctxt "PermissionKeyName"
+msgid "View Files"
+msgstr "Nähdä tiedostot"
+
+msgctxt "PermissionKeyDescription"
+msgid "View files within folder in the site."
+msgstr "Näytä hakemistossa olevat tiedostot sivustolla."
+
+msgctxt "PermissionKeyName"
+msgid "Search File Folder"
+msgstr "Hae tiedostohakemisto"
+
+msgctxt "PermissionKeyDescription"
+msgid "See this file folder in the file manager"
+msgstr "Katso tämä tiedostohakemisto tiedostohallinnassa"
+
+msgctxt "PermissionKeyName"
+msgid "Edit File Folder"
+msgstr "Muokkaa tiedostohakemistoa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Edit a file folder."
+msgstr "Muokkaa tiedostohakemistoa."
+
+msgctxt "PermissionKeyName"
+msgid "Edit File Properties"
+msgstr "Muokata tiedostojen ominaisuuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit a file's properties."
+msgstr "Voi muokata tiedoston ominaisuuksia."
+
+msgctxt "PermissionKeyName"
+msgid "Edit File Contents"
+msgstr "Muokata tiedoston sisältöjä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit or replace files in folder."
+msgstr "Voi muokata tai korvata tiedostoja hakemistossa."
+
+msgctxt "PermissionKeyName"
+msgid "Copy File"
+msgstr "Kopioi tiedosto"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can copy files in file folder."
+msgstr "Voi kopioida tiedostoja tiedostohakemistossa."
+
+msgctxt "PermissionKeyName"
+msgid "Edit File Access"
+msgstr "Muuttaa tiedoston pääsyoikeuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit access to file folder."
+msgstr "Voi muokata pääsyoikeutta hakemistoon."
+
+msgctxt "PermissionKeyName"
+msgid "Delete File Folder"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Can delete file folder."
+msgstr "Voi poistaa tiedostohakemiston."
+
+msgctxt "PermissionKeyName"
+msgid "Delete File"
+msgstr "Poistaa tiedoston"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can delete files in folder."
+msgstr "Voi poistaa tiedostoja hakemistossa."
+
+msgctxt "PermissionKeyName"
+msgid "Add File"
+msgstr "Lisää tiedosto"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add files to folder."
+msgstr "Voi lisätä tiedostoja hakemistoon."
+
+msgctxt "PermissionKeyDescription"
+msgid "Can view and download files."
+msgstr "Voi nähdä ja ladata tiedostoja."
+
+msgctxt "PermissionKeyName"
+msgid "View File in File Manager"
+msgstr "Nähdä tiedoston tiedostohallinnassa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can access the File Manager."
+msgstr "Voi päästä tiedostohallintaan."
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit or replace files."
+msgstr "Voi muokata tai korvata tiedostoja."
+
+msgctxt "PermissionKeyDescription"
+msgid "Can copy file."
+msgstr "Voi kopioida tiedoston."
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit access to file."
+msgstr "Voi muokata pääsyoikeutta tiedostoon."
+
+msgctxt "PermissionKeyDescription"
+msgid "Can delete file."
+msgstr "Voi poistaa tiedoston."
+
+msgctxt "PermissionKeyName"
+msgid "View Area"
+msgstr "Nähdä alue"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can view the area and its contents."
+msgstr "Voi nähdä alueen ja sen sisällön."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Area Contents"
+msgstr "Muokata alueen sisältöjä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit blocks within this area."
+msgstr "Voi muokata alueen lohkoja."
+
+msgctxt "PermissionKeyName"
+msgid "Add Block to Area"
+msgstr "Lisätä lohkon alueelle"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add blocks to this area. This setting overrides the global Add Block permission for this area."
+msgstr "Voi lisätä lohkoja tälle alueelle. Tämä asetus ylikirjoittaa yleisen Lisää lohko oikeuden tälle alueelle."
+
+msgctxt "PermissionKeyName"
+msgid "Add Stack to Area"
+msgstr "Lisätä pinon alueelle"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add stacks to this area. This setting overrides the global Add Stack permission for this area."
+msgstr "Voi lisätä pinoja tälle alueelle. Tämä asetus ylikirjoittaa yleisen Lisää pino oikeuden tälle alueelle."
+
+msgctxt "PermissionKeyName"
+msgid "Add Layouts to Area"
+msgstr "Lisätä sivupohjia alueeseen"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users get the ability to add layouts to a particular area."
+msgstr "Määrittelee voivatko käyttäjät lisätä sivupohjia tietylle alueelle."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Area Design"
+msgstr "Muokata alueen ulkoasua"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users see design controls and can modify an area's custom CSS."
+msgstr "Määrittelee näkevätkö käyttäjät ulkoasun asetukset ja voivat he muokata alueen omaa CSS:ää."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Area Permissions"
+msgstr "Muokata alueen oikeuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can access the permissions on an area. Custom area permissions could override those of the page."
+msgstr "Määrittelee voivatko käyttäjät päästä alueen oikeuksiin. Alueen omat oikeudet voivat ylikirjoittaa sivun oikeudet."
+
+msgctxt "PermissionKeyName"
+msgid "Delete Area Contents"
+msgstr "Poistaa alueen sisällöt"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can delete blocks from this area."
+msgstr "Määrittelee voivatko käyttäjät poistaa lohkoja tältä alueelta."
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can schedule guest access permissions on blocks in this area. Guest Access is a shortcut for granting permissions just to the Guest Group."
+msgstr "Määrittelee voivatko käyttäjät ajastaa vieraille pääsyoikeuden tämän alueen lohkoihin. Vieraiden pääsyoikeus on pikalinkki, jolla voi antaa oikeuden ainoastaan Vieras-ryhmälle."
+
+msgctxt "PermissionKeyName"
+msgid "Add Block"
+msgstr "Lisää lohko"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add a block to any area on the site. If someone is added here they can add blocks to any area (unless that area has permissions that override these global permissions.)"
+msgstr "Voi lisätä lohkon mille tahansa sivun alueelle. Jos joku on lisätty tänne, he voivat lisätä lohkoja mille tahansa alueelle (ellei alueen oikeudet ylikirjoita näitä yleisä asetuksia)."
+
+msgctxt "PermissionKeyName"
+msgid "Add Stack"
+msgstr "Lisää pino"
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add a stack or block from a stack to any area on the site. If someone is added here they can add stacks to any area (unless that area has permissions that override these global permissions.)"
+msgstr "Voi lisätä pinon tai lohkon pinosta mille tahansa sivun alueelle. Jos joku on lisätty tänne, he voivat lisätä pinoja mille tahansa alueelle (ellei alueen oikeudet ylikirjoita näitä yleisä asetuksia)."
+
+msgctxt "PermissionKeyName"
+msgid "View Block"
+msgstr "Nähdä lohko"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can view this block in the page."
+msgstr "Määrittelee voivatko käyttäjät nähdä tämän lohkon sivulla."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Block"
+msgstr "Muokata lohkoa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can edit this block. This overrides any area or page permissions."
+msgstr "Määrittelee voivatko käyttäjät muokata tätä lohkoa. Tämä ylikirjoittaa kaikki alueen ja sivun oikeudet."
+
+msgctxt "PermissionKeyName"
+msgid "Change Block Template"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can change the block template on this block. This overrides any area or page permissions."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Cache Settings"
+msgstr "Muokkaa välimuistin asetuksia"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can change the block cache settings for this block instance."
+msgstr "Määrittelee voivatko käyttäjät muuttaa lohkon välimuistiasetuksia tälle lohkoinstanssille."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Name"
+msgstr "Muokkaa nimeä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can change the block's name (rarely used.)"
+msgstr "Määrittelee voivatko käyttäjät vaihtaa lohkon nimeä (käytetään harvoin.)"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Block"
+msgstr "Poistaa lohko"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can delete this block. This overrides any area or page permissions."
+msgstr "Määrittelee voivatko käyttäjät poistaa tämän lohkon. Tämä ylikirjoittaa kaikki alueen ja sivun oikeudet."
+
+msgctxt "PermissionKeyName"
+msgid "Edit Design"
+msgstr "Muokata ulkoasua"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can set custom design properties or CSS on this block."
+msgstr "Määrittelee voivatko käyttäjät asettaa omia ulkoasun asetuksia tai CSS:ää tälle lohkolle."
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can change permissions on this block, potentially granting themselves or others greater access."
+msgstr "Määrittelee voivatko käyttäjät vaihtaa oikeuksia tälle lohkolle, mahdollisesti he voivat antaa myös lisää oikeuksia itselleen ja muille."
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls whether users can schedule guest access permissions on this block. Guest Access is a shortcut for granting permissions just to the Guest Group."
+msgstr "Määrittelee voivatko käyttäjät ajastaa vieraiden pääsyoikeuden tähän lohkoon. Vieraiden pääsyoikeus on pikalinkki, jolla voi antaa oikeuden ainoastaan Vieras-ryhmälle."
+
+msgctxt "PermissionKeyName"
+msgid "Upgrade Concrete"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Access Page Type Permissions"
+msgstr "Pääsyoikeus sivutyyppien oikeuksiin"
+
+msgctxt "PermissionKeyName"
+msgid "Access Task Permissions"
+msgstr "Pääsee tehtävien oikeuksiin"
+
+msgctxt "PermissionKeyName"
+msgid "Access Page Type Defaults"
+msgstr "Pääsee sivutyyppien oletuksiin"
+
+msgctxt "PermissionKeyName"
+msgid "Customize Themes"
+msgstr "Muokkaa teemoja"
+
+msgctxt "PermissionKeyName"
+msgid "Manage Layout Presets"
+msgstr "Hallinnoi tallennettuja rakenteita"
+
+msgctxt "PermissionKeyName"
+msgid "Empty Trash"
+msgstr "Tyhjennä roskakori"
+
+msgctxt "PermissionKeyName"
+msgid "Add Topic Tree"
+msgstr "Lisää aihepuu"
+
+msgctxt "PermissionKeyName"
+msgid "Remove Topic Tree"
+msgstr "Poista aihepuu"
+
+msgctxt "PermissionKeyName"
+msgid "View Site in Maintenance Mode"
+msgstr "Näytä sivusto huoltotilassa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Ability to see and use the website when Concrete is in maintenance mode."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Access API"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Topic Tree"
+msgstr "Muokkaa aihepuuta"
+
+msgctxt "PermissionKeyName"
+msgid "Notify in Notification Center"
+msgstr "Ilmoita ilmoituskeskuksessa"
+
+msgctxt "PermissionKeyDescription"
+msgid "Controls who receives updates in the notification center."
+msgstr "Määrittelee ketkä saavat ilmoituksia ilmoituskeskuksessa."
+
+msgctxt "PermissionKeyName"
+msgid "Access Sitemap"
+msgstr "Pääsee sivukarttaan"
+
+msgctxt "PermissionKeyName"
+msgid "Uninstall Packages"
+msgstr "Poista paketteja"
+
+msgctxt "PermissionKeyName"
+msgid "Install Packages"
+msgstr "Asentaa paketteja"
+
+msgctxt "PermissionKeyName"
+msgid "Approve or Deny"
+msgstr "Hyväksy tai estä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Grant ability to approve workflow."
+msgstr "Myönnä oikeus hyväksyä työnkulku."
+
+msgctxt "PermissionKeyName"
+msgid "Notify on Entry"
+msgstr "Ilmoita lisäyksen yhteydessä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Notify approvers that a change has entered the workflow."
+msgstr "Ilmoita hyväksyjille, että työnkulkuun on tullut muutos."
+
+msgctxt "PermissionKeyName"
+msgid "Notify on Approve"
+msgstr "Ilmoita hyväksymisen yhteydessä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Notify approvers that a change has been approved."
+msgstr "Ilmoita hyväksyjille, että muutos on hyväksytty."
+
+msgctxt "PermissionKeyName"
+msgid "Notify on Deny"
+msgstr "Ilmoita hylkäyksen yhteydessä"
+
+msgctxt "PermissionKeyDescription"
+msgid "Notify approvers that a change has been denied."
+msgstr "Ilmoita hyväksyjille, että muutos on hylätty."
+
+msgctxt "PermissionKeyName"
+msgid "Add Pages of This Type"
+msgstr "Lisää tämän tyyppisiä sivuja"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Page Type"
+msgstr "Poista sivutyyppi"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Page Type Permissions"
+msgstr "Muokkaa sivutyypin oikeuksia"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Page Type Drafts"
+msgstr "Muokkaa sivutyypin luonnoksia"
+
+msgctxt "PermissionKeyName"
+msgid "Search User Group"
+msgstr "Hae käyttäjäryhmästä"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Group"
+msgstr "Muokkaa ryhmää"
+
+msgctxt "PermissionKeyName"
+msgid "Assign Group"
+msgstr "Liitä ryhmä"
+
+msgctxt "PermissionKeyName"
+msgid "Add Child Group"
+msgstr "Lisää alaryhmä"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Group Permissions"
+msgstr "Muokkaa ryhmäoikeuksia"
+
+msgctxt "PermissionKeyName"
+msgid "Search Group Folder"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "See this group folder in the group search."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Group Folder"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Edit a group folder."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Group Access"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Can edit access to group folder."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Delete Group Folder"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Can delete group folder."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Add Group Folder"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add folders."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Add Group"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Can add groups to folder."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Assign Groups"
+msgstr ""
+
+msgctxt "PermissionKeyDescription"
+msgid "Can assign the groups within this folder."
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "View Entries"
+msgstr "Näytä merkinnät"
+
+msgctxt "PermissionKeyName"
+msgid "Add Entry"
+msgstr "Lisää tieto"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Entry"
+msgstr "Muokkaa tietoa"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Entry"
+msgstr "Poista tieto"
+
+msgctxt "PermissionKeyName"
+msgid "View Category Tree Node"
+msgstr "Katso kategoriapuun solmu"
+
+msgctxt "PermissionKeyName"
+msgid "View Topic Tree Node"
+msgstr "Näytä aihepuun solmu"
+
+msgctxt "PermissionKeyName"
+msgid "Add Message to Conversation"
+msgstr "Lisää viesti keskusteluun"
+
+msgctxt "PermissionKeyName"
+msgid "Add Message Attachments"
+msgstr "Lisää viestin liitetiedostoja"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Conversation Permissions"
+msgstr "Muokkaa keskustelun oikeuksia"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Message"
+msgstr "Poista viesti"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Message"
+msgstr "Muokkaa viestiä"
+
+msgctxt "PermissionKeyName"
+msgid "Rate Message"
+msgstr "Arvioi viesti"
+
+msgctxt "PermissionKeyName"
+msgid "Flag Message"
+msgstr "Merkitse viesti"
+
+msgctxt "PermissionKeyName"
+msgid "Approve Message"
+msgstr "Hyväksy viesti"
+
+msgctxt "PermissionKeyName"
+msgid "Add Calendar"
+msgstr "Lisää kalenteri"
+
+msgctxt "PermissionKeyName"
+msgid "View Calendars"
+msgstr "Näytä kalenterit"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Calendars"
+msgstr "Muokkaa kalentereita"
+
+msgctxt "PermissionKeyName"
+msgid "Add Calendar Events"
+msgstr "Lisää kalenteritapahtumia"
+
+msgctxt "PermissionKeyName"
+msgid "Approve Calendar Events"
+msgstr "Hyväksy kalenteritapahtumia"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Calendars"
+msgstr "Poista kalentereita"
+
+msgctxt "PermissionKeyName"
+msgid "Access RSS Feeds"
+msgstr "Pääsy RSS-syötteisiin"
+
+msgctxt "PermissionKeyName"
+msgid "View Calendar"
+msgstr "Katso kalenteri"
+
+msgctxt "PermissionKeyName"
+msgid "View in Edit Interface"
+msgstr "Katso muokkaustilassa"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Calendar"
+msgstr "Muokkaa kalenteria"
+
+msgctxt "PermissionKeyName"
+msgid "Add Calendar Event"
+msgstr "Lisää kalenteritapahtuma"
+
+msgctxt "PermissionKeyName"
+msgid "Approve Calendar Event"
+msgstr "Hyväksy kalenteritapahtuma"
+
+msgctxt "PermissionKeyName"
+msgid "Modify More Details Location"
+msgstr "Muokkaa lisätiedon sijaintia"
+
+msgctxt "PermissionKeyName"
+msgid "Edit Calendar Events"
+msgstr "Muokkaa kalenteritapahtumia"
+
+msgctxt "PermissionKeyName"
+msgid "Access RSS Feed"
+msgstr "Pääsy RSS-syötteeseen"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Calendar"
+msgstr "Poista kalenteri"
+
+msgctxt "PermissionKeyName"
+msgid "Add Board"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "View Boards"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Board Settings"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Board Content"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Locked Rules"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Delete Boards"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "View Board"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Edit Settings"
+msgstr "Muokkaa asetuksia"
+
+msgctxt "PermissionKeyName"
+msgid "Delete Board"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "View Log Entries"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Delete Log Entries"
+msgstr ""
+
+msgctxt "PermissionKeyName"
+msgid "Export Log Entries"
+msgstr ""
+
+msgid "Page"
+msgstr "Sivu"
+
+msgid "Single page"
+msgstr "Yksittäinen sivu"
+
+msgid "Stack"
+msgstr "Pino"
+
+msgid "User"
+msgstr "Käyttäjä"
+
+msgid "File Folder"
+msgstr "Tiedostohakemisto"
+
+msgid "File"
+msgstr "Tiedosto"
+
+msgid "Area"
+msgstr "Alue"
+
+msgid "Block type"
+msgstr "Lohkotyyppi"
+
+msgid "Block"
+msgstr "Lohko"
+
+msgid "Administration"
+msgstr ""
+
+msgid "Notification"
+msgstr "Ilmoitus"
+
+msgid "Site map"
+msgstr "Sivukartta"
+
+msgid "Marketplace"
+msgstr ""
+
+msgid "Basic workflow"
+msgstr ""
+
+msgid "Page Type"
+msgstr "Sivutyyppi"
+
+msgid "Group Tree Node"
+msgstr ""
+
+msgid "Group Folder"
+msgstr ""
+
+msgid "Express Tree Node"
+msgstr ""
+
+msgid "Category Tree Node"
+msgstr ""
+
+msgid "Topic Tree Node"
+msgstr ""
+
+msgid "Conversation"
+msgstr "Keskustelu"
+
+msgid "Conversation Message"
+msgstr ""
+
+msgid "Multilingual Section"
+msgstr ""
+
+msgid "Calendar Admin"
+msgstr ""
+
+msgid "Calendar"
+msgstr "Kalenteri"
+
+msgid "Express Entry"
+msgstr ""
+
+msgid "Board Admin"
+msgstr ""
+
+msgid "Board"
+msgstr ""
+
+msgid "Logs"
+msgstr "Lokit"
+
+msgctxt "TreeName"
+msgid "Groups Tree"
+msgstr "Ryhmän puu"
+
+msgctxt "TreeName"
+msgid "Express Entries"
+msgstr ""
+
+msgctxt "TreeNodeCategoryName"
+msgid "Entries"
+msgstr ""
+
+msgctxt "TreeNodeCategoryName"
+msgid "Forms"
+msgstr ""
+
+msgctxt "TreeName"
+msgid "File Manager"
+msgstr "Tiedostohallinta"
+
+#: application/blocks/list_items/form.php:8
+#: application/blocks/wtf_slider/form.php:8
+msgid "Kohteet"
+msgstr ""
+
+#: application/blocks/list_items/form.php:278
+#: application/blocks/wtf_slider/form.php:257
+msgid "Kuva"
+msgstr ""
+
+#: application/blocks/list_items/form.php:289
+#: application/blocks/wtf_slider/form.php:268
+msgid "Otsikko"
+msgstr ""
+
+#: application/blocks/list_items/form.php:293
+msgid "Kuvaus"
+msgstr ""
+
+#: application/blocks/list_items/form.php:299
+#: application/blocks/wtf_slider/form.php:277
+msgid "Close"
+msgstr "Sulje"
+
+#: application/blocks/wtf_slider/form.php:272
+msgid "Teksti"
+msgstr ""
+
+#: application/authentication/concrete/form.php:38
+msgid "Pysy sisäänkirjautuneena %s"
+msgstr ""
+
+#: application/authentication/concrete/form.php:38
+msgid " päivää"
+msgstr ""
+
+#: application/authentication/concrete/form.php:55
+#: application/single_pages/login.php:31
+msgid "Kirjaudu sisään"
+msgstr "Kirjaudu sisään"
+
+#: application/blocks/empty_spacer/controller.php:20
+#: application/blocks/empty_spacer/controller.php:25
+msgid "Tyhjä väli"
+msgstr ""
+
+#: application/blocks/empty_spacer/form.php:8
+msgid "Desktopilla (1200px->)"
+msgstr ""
+
+#: application/blocks/empty_spacer/form.php:18
+msgid "Tabletilla (770px-1200px)"
+msgstr ""
+
+#: application/blocks/empty_spacer/form.php:28
+msgid "Mobiilissa (<-770px)"
+msgstr ""
+
+#: application/blocks/list_items/controller.php:47
+msgid "Listaus"
+msgstr ""
+
+#: application/blocks/list_items/controller.php:52
+msgid "Lisää sivulle lista"
+msgstr ""
+
+#: application/blocks/list_items/form.php:260
+#: application/blocks/wtf_slider/form.php:249
+msgid "Lisää kohde"
+msgstr ""
+
+#: application/blocks/list_items/form.php:299
+#: application/blocks/wtf_slider/form.php:277
+msgid "Pienennä"
+msgstr ""
+
+#: application/blocks/list_items/form.php:299
+#: application/blocks/wtf_slider/form.php:277
+msgid "Muokkaa kohdetta"
+msgstr ""
+
+#: application/blocks/toggle_list/controller.php:27
+msgid "Toggle painike lista"
+msgstr ""
+
+#: application/blocks/wtf_slider/controller.php:47
+msgid "Karuselli"
+msgstr ""
+
+#: application/blocks/wtf_slider/controller.php:52
+msgid "Slideri kuville ja/tai tekstille"
+msgstr ""
+
+#: application/single_pages/login.php:32
+msgid "Olet jo kirjautunut sisään. :)"
+msgstr ""
+
+#: application/single_pages/login.php:34
+msgid "Vaaditut tiedot"
+msgstr ""
+
+#: application/single_pages/login.php:61
+msgid "Tervetuloa takaisin!"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:35
+msgid "Ingressi"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:36
+msgid "Kuvateksti"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:38
+msgid "Painike"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:44
+msgid "Toissijainen painike"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:50
+msgid "Sininen otsikko"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:56
+msgid "Sininen teksti"
+msgstr ""
+
+#: application/themes/both2nia/page_theme.php:62
+msgid "Tyhjennä tyylit"
+msgstr ""

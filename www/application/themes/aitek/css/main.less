@@ -1,0 +1,45 @@
+/* Import our theme variables. */
+@import "variables/borders.less";
+@import "variables/colors.less";
+@import "variables/dimensions.less";
+@import "variables/gutters.less";
+@import "variables/icons.less";
+@import "variables/transitions.less";
+@import "variables/typography.less";
+
+/* Import our theme mixins */
+@import "mixins/mixins.less";
+
+@import "base/body.less";
+@import "base/typography.less";
+
+/* Import custom block less files */
+@import "../../../blocks/blocks.less";
+
+/* These are not added when in edit mode */
+.ccm-html {
+  @import "components/animations.less";
+}
+
+/* Styles always added */
+.ccm-page {
+  @import "components/back-to-top.less";
+  @import "components/buttons.less";
+  @import "components/containers.less";
+  @import "components/footer.less";
+  @import "components/header.less";
+  @import "components/home.less";
+  @import "components/icons.less";
+  @import "components/layouts.less";
+  @import "components/mobile-menu.less";
+  @import "components/navigation.less";
+  @import "components/topbar.less";
+  @import "components/feature.less";
+  @import "components/pagelist.less";
+  @import "components/news.less";
+}
+
+/* Styles only for edit mode */
+.ccm-toolbar-visible .ccm-page{
+  @import "base/edit-mode.less";
+}

@@ -1,0 +1,107 @@
+@toggle-title-color: #000;
+@toggle-icon-color: #fff;
+@toggle-icon-default-bg: #000;
+@toggle-icon-size: 3rem;
+@toggle-icon-font-size: 3rem;
+@toggle-transition: all 0.3s;
+@toggle-padding: 1.5rem;
+@toggle-btm-margin: 2rem;
+@toggle-border-radius: 0.5rem;
+
+.toggle-list-item {
+  border: 1px solid black;
+  border-radius: @toggle-border-radius;
+  margin-bottom: @toggle-btm-margin;
+  width: 95%;
+
+  &-wrapper {
+    &.active {
+      .toggle-list-item-title {
+        .toggle-list-item-icon-minus {
+          transform: rotate(180deg);
+          opacity: 0;
+        }
+  
+        .toggle-list-item-icon-minus {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &-wrapper,
+  &-wrapper:hover {
+    text-decoration: none !important;
+  }
+
+  &-open-wrapper {
+    padding: @toggle-padding;
+    padding-top: 0;
+    overflow-x: scroll;
+  }
+
+  &-icon {
+    align-items: center;
+    background-color: @toggle-icon-default-bg;
+    border: 0;
+    border-radius: @toggle-border-radius;
+    color: @toggle-icon-color;
+    display: flex;
+    font-size: @toggle-icon-font-size !important;
+    height: @toggle-icon-size;
+    justify-content: center;
+    line-height: 0 !important;
+    margin: 0 @toggle-padding;
+    margin-right: -3.5%;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    right: 0;
+    transition: @toggle-transition;
+    width: @toggle-icon-size;
+  }
+  &-icon-plus {
+    opacity: 1;
+  }
+  &-icon-minus {
+    opacity: 0;
+  }
+
+  &-title {
+    align-items: center;
+    color: @toggle-title-color;
+    cursor: pointer;
+    display: flex;
+    padding: @toggle-padding;
+    padding-right: @toggle-icon-size;
+    position: relative;
+
+    h2, h3, h4, h5 {
+      color: @toggle-title-color !important;
+      margin: 0 !important;
+    }
+
+    h2 {
+      font-size: 22px !important;
+
+      @media (min-width: 1200px) {
+        font-size: 30px !important;
+      }
+    }
+
+    h3 {
+      font-size: 20px !important;
+
+      @media (min-width: 1200px) {
+        font-size: 24px !important;
+      }
+    }
+
+    h4 {
+      font-size: 18px !important;
+
+      @media (min-width: 1200px) {
+        font-size: 20px !important;
+      }
+    }
+  }
+}

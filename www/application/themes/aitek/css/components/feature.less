@@ -1,0 +1,79 @@
+@chevron-plus: url('/application/files/8316/8535/4633/proski_plusmerkki.svg');
+@chevron-minus: url('/application/files/2816/8535/4633/proski_miinusmerkki.svg');
+
+.feature-toggle {
+    border-bottom: 1px solid @white;
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    @media @desktop-max {
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    &-open-wrapper {
+      padding: 1rem;
+      padding-left: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+  
+    &-icon {
+      background-color: transparent;
+      .bg-image(@chevron-plus);
+      border: 0;
+      height: 24px;
+      top: 1.5rem;
+      position: absolute;
+      right: 0rem;
+      width: 24px;
+      .transition();
+  
+      &.active {
+        .bg-image(@chevron-minus);
+        .transform(rotate(180deg));
+        margin-top: 14px;
+        height: 4px;
+        background-color: @white;
+      }
+    }
+  
+    &-highlight-text {
+      color: @white;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  
+    h2, h3, h4 {
+      color: @white;
+      margin-top: 0;
+      margin-left: 0;
+      padding-bottom: 16px;
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 1px;
+      margin-bottom: 0;
+      @media @desktop-max {
+        font-size: 20px;
+        padding-right: 2rem;
+      }
+    }
+  
+    p {
+      padding-right: 30%;
+      color: @white;
+      font-size: 16px;
+      @media @desktop-max {
+        padding-right: 0%;
+      }
+    }
+  
+    [type=button] {
+      -webkit-appearance: none !important;
+    }
+  }

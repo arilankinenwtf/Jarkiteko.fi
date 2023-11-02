@@ -1,0 +1,22 @@
+// Tässä esimerkissä header-osion päällä on vielä topbar,
+// tämän tiedoston voi tarvittaessa poistaa jos ei ole topbaria (poista myös import main.lessissä)
+
+.topbar {
+  height: 100%;
+  margin-bottom: @topbar-margin;
+  width: 100%;
+
+  &-content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  &-wrapper {
+    align-items: center;
+    background-color: @topbar-bg;
+    display: flex;
+    height: @topbar-height;
+  }
+}

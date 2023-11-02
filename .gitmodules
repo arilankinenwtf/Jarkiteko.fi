@@ -1,0 +1,3 @@
+[submodule "www/packages/wtf_cookie_consent"]
+	path = www/packages/wtf_cookie_consent
+	url = https://github.com/WTF-Design/wtf_cookie_consent.git

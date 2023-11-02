@@ -1,0 +1,62 @@
+/* 
+/* Esimerkki blur-reveal-animaatiolle
+
+.hero-title {
+  filter: blur(1.5rem);
+  .transition(filter, 1s, ease-in);
+
+  &.reveal {
+    filter: blur(0);
+  }
+}
+*/
+
+
+/*
+/*  Rakenteen tai listaelementin animointi (slide in):
+*/
+.transition-delay-childs (@delay, @i) when (@i > 0) {
+  &:nth-child(@{i}) {
+    transition-delay: @delay + @i * 100ms;
+  }
+  .transition-delay-childs(@delay, @i - 1);
+}
+
+.animated {
+  .container [class^="col-"],
+  .animated-child {
+    opacity: 0;
+    .transform(translateX(100%));
+    .transition(~'all 1s ease-in-out');
+    .transition-delay-childs(0, 9); //max.6:lle elementille, lähtö delay 1500ms
+  }
+
+  &.appear {
+    .container [class^="col-"],
+    .animated-child {
+      opacity: 1;
+      .transform(translateX(0%));
+    }
+  }
+}
+
+.slide-in {
+  &-right {
+    opacity: 0;
+
+    &.appear {
+      animation: slideInFromRight 0.6s 0.2s forwards;
+    }
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

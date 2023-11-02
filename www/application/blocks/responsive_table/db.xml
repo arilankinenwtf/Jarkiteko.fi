@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+	<table name="btResponsiveTable">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+        <field name="columnCount" type="I">
+			<default value="1" />
+		</field>
+		<field name="useFirstRowAsHeaders" type="I">
+			<unsigned />
+			<notnull />
+			<default value="1" />
+		</field>
+		<field name="hideHeadersOnDesktop" type="I">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+	</table>
+
+	<table name="btResponsiveTableItems">
+		<field name="rowID" type="I">
+			<key />
+			<autoincrement />
+			<unsigned />
+		</field>
+		<field name="bID" type="I"></field>
+		<field name="class" type="C" size="63"></field>
+		<field name="data" type="C" size="8191"></field>
+	</table>
+
+</schema>

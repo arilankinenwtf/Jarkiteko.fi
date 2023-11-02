@@ -1,0 +1,121 @@
+.bg-image (@img, @size : cover, @position : center, @repeat : no-repeat) {
+  background-image: @img;
+  background-size: @size;
+  background-position: @position;
+  background-repeat: @repeat;
+}
+
+// add (transparent) bg overlay and make child container on top of it
+.bg-overlay (@color) {
+  position: relative;
+
+  &:after {
+    background-color: @color;
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  > div {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+.hide-scrollbar {
+  /* this will hide the scrollbar in mozilla based browsers */
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  /* this will hide the scrollbar in internet explorers */
+  -ms-overflow-style: none;
+}
+
+.hyphenate() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.layout-style (@bg, @color, @padding : @layout-padding) {
+  background: @bg;
+  color: @color;
+  padding: @padding;
+
+  p, a, h1, h2, h3, h4, h5, li, span {
+    color: @color !important;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+
+.link (@color, @hover) {
+  color: @color;
+  .transition();
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: @hover;
+    text-decoration: none;
+  }
+}
+
+.text-color(@color) {
+  h1, h2, h3, h4, h5,
+  p, span, a, li {
+    color: @color;
+  }
+}
+
+.text-gradient(@from, @to) {
+  background-image: linear-gradient(120deg, @from, @to);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-selection-color(@bg, @color) {
+  ::-moz-selection { /* Code for Firefox */
+    color: @color;
+    background: @bg;
+  }
+  
+  ::selection {
+    color: @color;
+    background: @bg;
+  }
+}
+
+.transform(@string){
+	-webkit-transform: @string;
+	-moz-transform: 	 @string;
+	-ms-transform: 		 @string;
+  -o-transform: 		 @string;
+  transform:         @string;
+}
+
+.transition (@prop : all, @time : 0.3s, @ease : ease-in-out) {
+  -webkit-transition: @prop @time @ease;
+  -moz-transition: @prop @time @ease;
+  -o-transition: @prop @time @ease;
+  -ms-transition: @prop @time @ease;
+  transition: @prop @time @ease;
+}

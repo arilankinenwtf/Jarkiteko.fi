@@ -1,0 +1,81 @@
+h1 {
+  color: @white;
+  font-family: @h1-font;
+  font-size: 1.8rem;
+  font-weight: @h1-weight;
+  letter-spacing: 3px;
+  margin-bottom: 1.3rem;
+  @media @tablet {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  color: @white;
+  font-family: @h2-font;
+  font-size: 1.6rem;
+  font-weight: @h2-weight;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+  @media @tablet {
+    font-size: 2.6rem;
+  }
+}
+
+h3 {
+  color: @white;
+  font-size: 1.4rem;
+  font-weight: @h3-weight;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  @media @tablet {
+    font-size: 2.2rem;
+  }
+}
+
+h4 {
+  color: @white;
+}
+
+p {
+  font-size: @p-size-mobile;
+  font-size: 18px;
+  font-weight: 300;
+  @media @tablet {
+    font-size: 18px;
+  }
+}
+
+a {
+  color: @sky;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: @link-hover-color;
+  }
+}
+
+.ingress {
+  color: @ingress-color;
+  display: block;
+  font-size: @ingress-size;
+  font-weight: @ingress-weight;
+  padding: @ingress-margin 0;
+}
+
+.caption {
+  color: @caption-color;
+  font-size: @caption-size;
+}
+
+blockquote {
+  color: @quote-color;
+  font-size: @quote-size;
+}
+
+.font-size-small {
+  @media @desktop-max {
+    font-size: 1.2rem !important;
+  }
+}
