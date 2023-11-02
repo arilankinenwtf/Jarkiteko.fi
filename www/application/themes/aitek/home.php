@@ -5,12 +5,6 @@ $this->inc('elements/header.php'); ?>
 
 <main class="main-content" id="main-content">
 
-<div class="intro">
-    <div class="etusivu-tausta"></div>
-        <canvas id="spiders" class="hidden-xs"></canvas>
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-
     <div class="top-content">
     <?php
     $a = new Area('Top');
